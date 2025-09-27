@@ -132,7 +132,7 @@ WAF_PAGE = """
                         <p>Daxil olan bütün HTTP sorğularının analizi və izlənməsi</p>
                     </div>
                     <div class="feature-card">
-                        <h3>⚡ Real-vaxt Müdafiəsi</h3>
+                        <h3>Real-vaxt Müdafiəsi</h3>
                         <p>Şübhəli fəaliyyətlərin dərhal aşkarlanması və bloklanması</p>
                     </div>
                     <div class="feature-card">
@@ -223,6 +223,6 @@ def home():
 if __name__ == '__main__':
     print(" WAF məlumat tətbiqi başladılır...")
     print(" URL: http://localhost:5000")
-    print("⏹  Dayandırmaq üçün Ctrl+C basın")
+    print(" Dayandırmaq üçün Ctrl+C basın")
     
     app.run(host='0.0.0.0', port=5000, debug=True)
