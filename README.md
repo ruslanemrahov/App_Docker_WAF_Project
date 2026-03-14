@@ -87,7 +87,7 @@ Transfer your Flask application to the server:
 
 ```bash
 # From client PC - copy Flask app to server
-scp ~/Documents/BUG_BOUNTY/Millisec_Test/app.py user@x.x.x.x:~/app
+scp ~/Documents/app.py user@x.x.x.x:~/app
 ```
 
 ### Step 3: Docker Container Setup
